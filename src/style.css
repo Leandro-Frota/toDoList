@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw ;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+.app{
+    position: relative;
+    width: 100%;
+    padding: 4rem 2rem;
+  
+}
+
+.imageTop{
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    color: hsl(0, 0%, 98%);
+}
+
+.iconMoon{
+    width: 2rem;
+}
+
+.inputNewTodoContainer{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex   ;
+    gap: 1rem;
+
+}
+
+.labelCheckboxInputNewTodo img{
+    background-color: black;
+}
+
+.checkboxInputNewTodo{
+    border-radius: 50%;
+    display: none;
+}
+
+.checkboxInputNewTodo + input:before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border: ;
+}
+.inputTodoNew{
+    border: none;
+}
+::placeholder{
+    font-size: 1rem;
+}
